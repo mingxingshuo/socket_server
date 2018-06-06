@@ -1,0 +1,26 @@
+{
+  "3": {
+    "button": [
+      
+    ]
+  },
+  "2": {
+    "button": [
+      
+    ]
+  },
+  "24":{
+  	"button":[
+  		{
+  			"type":"click",
+  			"name":"0元领",
+  			"key":"KEY_ZERO_LING"
+  		},
+  		{
+  			"type":"click",
+  			"name":"查进度",
+  			"key":"KEY_ZERO_PROC"
+  		}
+  	]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "tuitui-weichat",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "~2.6.0",
+    "express": "~4.15.5",
+    "mongoose": "~5.0.7",
+    "node-schedule": "1.3.0",
+    "wechat": "~2.1.0",
+    "wechat-api": "~1.35.1",
+    "wechat-jssdk": "^3.0.12",
+    "ws": "^0.4.32",
+    "memcached": "^2.2.2",
+    "socket.io": "1.7.4"
+  }
+}
