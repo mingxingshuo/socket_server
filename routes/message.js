@@ -10,6 +10,7 @@ router.use('/taobaoke', function(req, res, next) {
 
 router.use('/baokuan', function(req, res, next) {
     var data = req.body;
+    console.log(data);
     MessageServer.getInstance(null).get_one_baokuan(data);
     res.send('')
 })
