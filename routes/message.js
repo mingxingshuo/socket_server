@@ -4,7 +4,14 @@ var MessageServer = require('../message_server')
 
 router.use('/taobaoke', function(req, res, next) {
     var data = req.body;
-    MessageServer.getInstance(null).req_title_token(data);
+    MessageServer.getInstance(null).req_tb_token(data);
+    res.send('')
+})
+
+router.use('/jingdong', function(req, res, next) {
+    console.log('----------------jingdong')
+    var data = req.body;
+    MessageServer.getInstance(null).req_jd_token(data);
     res.send('')
 })
 
