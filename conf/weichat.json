@@ -289,12 +289,12 @@
 		"code":"24",
 		"name":"网购省钱VIP",
 		"appid":"wxfc15da67edc9f990",
-		"appsecret":"e8ca947a2536ad0bf01fe0fde492e5a5",
+		"appsecret":"33f1bc51bd4d53b101d2f805628f554e",
 		"token":"mingxingshuo",
 		"EncodingAESKey":"tw4a1yTUv0VJURGNif96ibI4z3oWPJJWpuo2mHTvzLb",
 		"url":"http://www.rrdtjj.top/weichat/24",
 		"sub_replay":0,
-		"robot":0,
+		"robot":1,
 		"zero_purchase":1
 	}
 
